@@ -9,7 +9,7 @@ from operator import attrgetter
 
 # Load API key securely
 load_dotenv()
-GROQ_API_KEY = os.getenv("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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if not GROQ_API_KEY:
     st.error("🚨 API Key is missing! Set it in Streamlit Secrets or a .env file.")
